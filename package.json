@@ -4,6 +4,7 @@
   "description": "for https://academy.zenva.com/lesson/introduction-52/",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon --exec babel-node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/e70838/nodejwtvideo/issues"
   },
-  "homepage": "https://github.com/e70838/nodejwtvideo#readme"
+  "homepage": "https://github.com/e70838/nodejwtvideo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11"
+  }
 }
